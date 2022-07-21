@@ -41,25 +41,6 @@ const Search: React.FC<ISearch> = (props: ISearch) => {
     }
   }
 
-  /*   const customStyles = {
-    option: (provided: any, state: { isSelected: any }) => ({
-      ...provided,
-      backgroundColor: "#e6e6ff",
-      borderRadius: "20px",
-      color: state.isSelected ? "white" : "#8080ff",
-      padding: 20
-    }),
-    control: () => ({
-      // none of react-select's styles are passed to <Control />
-    }),
-    singleValue: (provided: any, state: { isDisabled: any }) => {
-      const opacity = state.isDisabled ? 0.5 : 1
-      const transition = "opacity 300ms"
-
-      return { ...provided, opacity, transition }
-    }
-  } */
-
   const handleOnChange = (
     newValue: SingleValue<IData>,
     actionMeta: ActionMeta<IData>
